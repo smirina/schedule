@@ -1,0 +1,11 @@
+.container {
+  padding: 20px;
+}
+
+.schoolName {
+  display: block;
+}
+
+td, th {
+  padding: 5px;
+}
