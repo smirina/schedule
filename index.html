@@ -5,134 +5,172 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Расписание</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&amp;subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-
 <div class='container'>
-  <table border="1">
+  <div class='headTitle'>
+    Расписание
+  </div>
+  <div class='tableFilters'>
+
+  </div>
+  <table class='table'>
     <tr>
       <th>Дата</th>
       <th>Школа</th>
       <th>Лекция</th>
       <th>Лектор</th>
       <th>Аудитория</th>
-      <th>Время</th>
     </tr>
     <tr>
-      <td>18.03</td>
+      <td>
+        <div>18.03</div>
+        <div>19:00</div>
+      </td>
       <td><span class='schoolName'>Школа мобильного дизайна</span></td>
       <td>Идея, исследование, концепт (Часть 1)</td>
       <td><div>Антон Тен</div></td>
+      <td>
+        <input type="checkbox" id="chk1">
+        <label for="chk1">Здесь подпункты</label>
+      </td>
       <td>Синий Кит</td>
-      <td>19:00</td>
     </tr>
     <tr>
-      <td>18.03</td>
+      <td>
+        <div>18.03</div>
+        <div>21:00</div>
+      </td>
       <td><span class='schoolName'>Школа мобильного дизайна</span></td>
       <td>Идея, исследование, концепт (Часть 2)</td>
       <td><div>Антон Тен</div></td>
       <td>Изумрудный жираф</td>
-      <td>21:00</td>
     </tr>
     <tr>
-      <td>20.03</td>
+      <td>
+        <div>20.03</div>
+        <div>19:00</div>
+      </td>
       <td><span class='schoolName'>Школа разработки интерфейсов</span></td>
       <td>Работа с сенсорным пользовательским вводом</td>
       <td><div>Дмитрий Душкин</div></td>
       <td>Желтая Сова</td>
-      <td>19:00</td>
     </tr>
     <tr>
-      <td>25.03</td>
+      <td>
+        <div>25.03</div>
+        <div>19:00</div>
+      </td>
       <td><span class='schoolName'>Школа мобильного дизайна</span></td>
       <td>Особенности проектирования мобильных интерфейсов</td>
       <td><div>Васюнин Николай</div></td>
       <td>Желтая Сова</td>
-      <td>19:00</td>
     </tr>
     <tr>
-      <td>27.03</td>
+      <td>
+        <div>27.03</div>
+        <div>19:00</div>
+      </td>
       <td><span class='schoolName'>Школа разработки интерфейсов</span></td>
       <td>Адаптивная верстка</td>
       <td><div>Дмитрий Душкин</div></td>
       <td>Синий Кит</td>
-      <td>19:00</td>
     </tr>
     <tr>
-      <td>01.04</td>
+      <td>
+        <div>01.04</div>
+        <div>19:00</div>
+      </td>
       <td><span class='schoolName'>Школа мобильного дизайна</span></td>
       <td>Продукт и платформа</td>
       <td><div>Сергей Калабин</div></td>
       <td>Изумрудный жираф</td>
-      <td>19:00</td>
     </tr>
     <tr>
-      <td>01.04</td>
+      <td>
+        <div>01.04</div>
+        <div>21:00</div>
+      </td>
       <td><span class='schoolName'>Школа мобильного дизайна</span></td>
       <td>Природа операционных систем</td>
       <td><div>Высюнин Николай</div></td>
       <td>Изумрудный жираф</td>
-      <td>21:00</td>
     </tr>
     <tr>
-      <td>03.04</td>
+      <td>
+        <div>03.04</div>
+        <div>19:00</div>
+      </td>
       <td><span class='schoolName'>Школа разработки интерфейсов</span></td>
       <td>Мультимедиа: возможности браузера</td>
       <td><div>Максим Васильев</div></td>
       <td>Синий Кит</td>
-      <td>19:00</td>
     </tr>
     <tr>
-      <td>08.04</td>
+      <td>
+        <div>08.04</div>
+        <div>19:00</div>
+      </td>
       <td><span class='schoolName'>Школа мобильного дизайна</span></td>
       <td>Прототипирование как процесс</td>
       <td>
         <div>Дарья Старицына</div>
         <div>Сергей Томилов</div></td>
       <td>Желтая Сова</td>
-      <td>19:00</td>
     </tr>
     <tr>
-      <td>08.04</td>
+      <td>
+        <div>08.04</div>
+        <div>21:00</div>
+      </td>
       <td><span class='schoolName'>Школа мобильного дизайна</span></td>
       <td>Инструмент под задачи</td>
       <td>
         <div>Дарья Старицына</div>
         <div>Сергей Томилов</div></td>
       <td>Желтая Сова</td>
-      <td>21:00</td>
     </tr>
     <tr>
-      <td>10.04</td>
+      <td>
+        <div>10.04</div>
+        <div>19:00</div>
+      </td>
       <td><span class='schoolName'>Школа разработки интерфейсов</span></td>
       <td>Нативные приложения на веб-технологиях</td>
       <td><div>Сергей Бережной</div></td>
       <td>Изумрудный жираф</td>
-      <td>19:00</td>
     </tr>
     <tr>
-      <td>15.04</td>
+      <td>
+        <div>15.04</div>
+        <div>21:00</div>
+      </td>
       <td><span class='schoolName'>Школа мобильного дизайна</span></td>
       <td>Анимации</td>
       <td>
         <div>Дарья Старицына</div>
         <div>Сергей Томилов</div></td>
       <td>Синий Кит</td>
-      <td>19:00</td>
     </tr>
     <tr>
-      <td>15.04</td>
+      <td>
+        <div>15.04</div>
+        <div>21:00</div>
+      </td>
       <td><span class='schoolName'>Школа мобильного дизайна</span></td>
       <td>Дополнительная лекция. Design Everything</td>
       <td>
         <div>Rijshouwer Krijn</div>
         <div>Treub Jonas</div></td>
       <td>Синий Кит</td>
-      <td>21:00</td>
     </tr>
     <tr>
-      <td>16.04</td>
+      <td>
+        <div>16.04</div>
+        <div>19:00</div>
+      </td>
       <td>
         <span class='schoolName'>Школа разработки интерфейсов</span>
         <span class='schoolName'>Школа мобильного дизайна</span>
@@ -140,72 +178,88 @@
       <td>Жить дружно</td>
       <td><div>Федор Достоевский</div></td>
       <td>Желтая Сова</td>
-      <td>19:00</td>
     </tr>
     <tr>
-      <td>17.04</td>
+      <td>
+        <div>17.04</div>
+        <div>19:00</div>
+      </td>
       <td><span class='schoolName'>Школа разработки интерфейсов</span></td>
       <td>Клиентская оптимизация: базовые знания и лучшие практики</td>
       <td><div>Андрей Морозов</div></td>
       <td>Желтая Сова</td>
-      <td>19:00</td>
     </tr>
     <tr>
-      <td>22.04</td>
+      <td>
+        <div>22.04</div>
+        <div>21:00</div>
+      </td>
       <td><span class='schoolName'>Школа мобильного дизайна</span></td>
       <td>Развите продукта</td>
       <td>
         <div>Андрей Гевак</div>
       </td>
       <td>Желтая Сова</td>
-      <td>21:00</td>
     </tr>
     <tr>
-      <td>24.04</td>
+      <td>
+        <div>24.04</div>
+        <div>19:00</div>
+      </td>
       <td><span class='schoolName'>Школа разработки интерфейсов</span></td>
       <td>Клиентская оптимизация: мобильные устройства и инструменты</td>
       <td><div>Иван Карев</div></td>
       <td>Изумрудный жираф</td>
-      <td>19:00</td>
     </tr>
     <tr>
-      <td>29.04</td>
+      <td>
+        <div>29.04</div>
+        <div>19:00</div>
+      </td>
       <td><span class='schoolName'>Школа мобильного дизайна</span></td>
       <td>Исследование интерфейсов</td>
       <td>
         <div>Кондратьев Александр</div>
       </td>
       <td>Изумрудный жираф</td>
-      <td>19:00</td>
     </tr>
     <tr>
-      <td>01.05</td>
+      <td>
+        <div>01.05</div>
+        <div>19:00</div>
+      </td>
       <td><span class='schoolName'>Школа разработки интерфейсов</span></td>
       <td>Инфраструктура веб-проектов</td>
       <td><div>Прокопюк Андрей</div></td>
       <td>Синий Кит</td>
-      <td>19:00</td>
     </tr>
     <tr>
-      <td>01.05</td>
+      <td>
+        <div>01.05</div>
+        <div>21:00</div>
+      </td>
       <td><span class='schoolName'>Школа разработки интерфейсов</span></td>
       <td>Инструменты разработки мобильного фронтенда</td>
       <td><div>Прокопюк Андрей</div></td>
       <td>Синий Кит</td>
-      <td>21:00</td>
     </tr>
     <tr>
-      <td>06.05</td>
+      <td>
+        <div>06.05</div>
+        <div>19:00</div>
+      </td>
       <td><span class='schoolName'>Школа мобильного дизайна</span></td>
       <td>Работа в команде</td>
       <td>
         <div>Юрий Подорожный</div>
       </td>
       <td>Изумрудный жираф</td>
-      <td>19:00</td>
     </tr>
     <tr>
-      <td>12.05</td>
+      <td>
+        <div>12.05</div>
+        <div>19:00</div>
+      </td>
       <td>
         <span class='schoolName'>Школа разработки интерфейсов</span>
         <span class='schoolName'>Школа мобильного дизайна</span>
@@ -213,10 +267,12 @@
       <td>Альтернативные методы разработки</td>
       <td><div>Николай Гоголь</div></td>
       <td>Желтая Сова</td>
-      <td>19:00</td>
     </tr>
     <tr>
-      <td>13.05</td>
+      <td>
+        <div>13.05</div>
+        <div>19:00</div>
+      </td>
       <td><span class='schoolName'>Школа мобильного дизайна</span></td>
       <td>Дополнительная лекция. Айдентика</td>
       <td>
@@ -224,7 +280,6 @@
         <div>Ждан Филиппов</div>
       </td>
       <td>Яндекс</td>
-      <td>19:00</td>
     </tr>
 
   </table>

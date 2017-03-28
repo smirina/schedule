@@ -1,5 +1,21 @@
 .container {
-  padding: 20px;
+  margin: 12px auto;
+  font-family: 'Open Sans', sans-serif;
+  color: #454545;
+}
+
+.headTitle {
+  font-size: 12px;
+  margin: 32px auto;
+  width: 120px;
+  text-align: center;
+}
+
+.table {
+  border-color: #d4d4d4;
+  border-collapse: collapse;
+  font-size: 8px;
+  margin: 12px auto;
 }
 
 .schoolName {
@@ -7,5 +23,34 @@
 }
 
 td, th {
-  padding: 5px;
+  padding: 2px;
+  border: 1px solid #d4d4d4;
+}
+
+th {
+  background-color: #e4e4e4;
+}
+
+@media (min-width: 768px) {
+  .headTitle {
+    font-size: 14px;
+  }
+  .table {
+    font-size: 12px;
+  }
+  td, th {
+    padding: 4px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .headTitle {
+    font-size: 18px;
+  }
+  .table {
+    font-size: 14px;
+  }
+  td, th {
+    padding: 6px;
+  }
 }
