@@ -31,6 +31,10 @@ th {
   background-color: #e4e4e4;
 }
 
+a {
+  text-decoration: none;
+}
+
 @media (min-width: 768px) {
   .headTitle {
     font-size: 14px;
@@ -53,4 +57,29 @@ th {
   td, th {
     padding: 6px;
   }
+}
+
+.speaker label{
+  text-decoration: underline;
+}
+
+.speakerInfo {
+  margin-left: 16px;
+  height: 0px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-decoration: none;
+  width: 160px;
+  color: #9b9b9b;
+}
+.speaker input{
+  display:none;
+}
+.speaker input:checked ~ .speakerInfo {
+  height:auto;
+}
+input + label:before {
+  content:"";
+  display:inline-block;
 }
