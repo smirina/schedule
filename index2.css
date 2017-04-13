@@ -1,0 +1,132 @@
+.container {
+  margin: 12px auto;
+  font-family: 'Open Sans', sans-serif;
+  color: #454545;
+}
+
+.table {
+  border-collapse: collapse;
+  border: 1px solid grey;
+}
+
+.table-block {
+  min-width: 300px;
+  max-width: 800px;
+  margin: 12px auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .headTitle {
+    font-size: 14px;
+  }
+  .table {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .headTitle {
+    font-size: 18px;
+  }
+  .table {
+    font-size: 14px;
+  }
+}
+
+.table-row {
+  min-height: 100px;
+  border: 1px solid #9b9b9b;
+  display: flex;
+  flex-direction: row;
+}
+
+.school-mark {
+  box-sizing: border-box;
+  width: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.mark-dis, .mark-dev {
+  display: flex;
+  flex: 1;
+}
+
+.mark-dis {
+  background-color: #fccca7;
+}
+
+.mark-dev {
+  background-color: #add8f7;
+}
+
+.school-name {
+  font-size: 12px;
+  color: #bfbfbf;
+  margin: 6px;
+}
+
+.lection-block {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.lection-info span+span {
+  margin-left: 8px;
+}
+
+.lection-date, .speaker {
+  font-size: 16px;
+  color: #5a5a5a;
+  margin-bottom: 6px;
+}
+
+.lection-time, .lection-place {
+  font-size: 16px;
+  color: #919191;
+  margin-bottom: 6px;
+}
+
+.lection-name {
+  font-size: 20px;
+  color: #5a5a5a;
+  margin: 12px 0;
+}
+
+.speaker {
+  width: 100%;
+}
+
+/* accordion */
+
+.speaker label{
+  text-decoration: underline;
+}
+
+.speakerInfo {
+  margin-left: 16px;
+  height: 0px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-decoration: none;
+  width: 160px;
+  color: #9b9b9b;
+}
+.speaker input{
+  display:none;
+}
+.speaker input:checked ~ .speakerInfo {
+  height:auto;
+}
+input + label:before {
+  content:"";
+  display:inline-block;
+}
