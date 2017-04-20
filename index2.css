@@ -4,7 +4,7 @@
   color: #454545;
 }
 .headTitle {
-  font-size: 12px;
+  font-size: 14px;
   margin: 32px auto;
   width: 120px;
   text-align: center;
@@ -15,10 +15,24 @@
   border: 1px solid grey;
 }
 
-.table-block {
+
+.table-block, .filter-container {
   min-width: 300px;
   max-width: 800px;
   margin: 12px auto;
+}
+
+.filter-container {
+  margin-bottom: 40px;
+}
+
+.filter-input {
+  height: 24px;
+  width: 300px;
+  margin-top: 20px;
+  padding: 4px 12px;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
 }
 
 a {
@@ -27,7 +41,7 @@ a {
 
 @media (min-width: 768px) {
   .headTitle {
-    font-size: 14px;
+    font-size: 20px;
   }
   .table {
     font-size: 12px;
@@ -36,7 +50,7 @@ a {
 
 @media (min-width: 1440px) {
   .headTitle {
-    font-size: 18px;
+    font-size: 24px;
   }
   .table {
     font-size: 14px;

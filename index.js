@@ -1,21 +1,17 @@
-document.querySelector('.button-filter-dev').addEventListener('click', function(){
-  if (!currentFilters.school) {
-    currentFilters.school = 'Школа мобильной разработки'
-  } else {
-    currentFilters.school = null
-  }
+document.querySelector('.filter-input').addEventListener('keydown', function(e){
+  currentFilters.filters = e.target.value || null
   applyFilters()
 })
 
-var currentFilters = {school: null, speaker: null, dates: null}
+var currentFilters = {filters: null}
 
 function checkItem(item) {
   console.log('it works')
-  if (currentFilters.school) {
+  if (currentFilters.filters) {
     var flag = false
-    var schoolName = item.querySelectorAll('.school-name')
-    for (var i = 0; i < schoolName.length; i++) {
-      var ok = schoolName[i].innerHTML === currentFilters.school
+    var filterName = item.querySelectorAll('.searchable')
+    for (var i = 0; i < filterName.length; i++) {
+      var ok = filterName[i].innerHTML.includes(currentFilters.filters)
       flag = flag || ok
     }
     if (!flag) {
