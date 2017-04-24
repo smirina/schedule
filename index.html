@@ -9,303 +9,949 @@
   <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-<div class='container'>
-  <div class='headTitle'>
-    Расписание
-  </div>
-  <div class='tableFilters'>
-    <button class='button-filter-dev'>Школа разработки интерфейсов</button>
-  </div>
-  <table class='table'>
-    <tr>
-      <th>Дата</th>
-      <th>Школа</th>
-      <th>Лекция</th>
-      <th>Лектор</th>
-      <th>Аудитория</th>
-    </tr>
-    <tr>
-      <td class='date'>
-        <div>18.03</div>
-        <div>19:00</div>
-      </td>
-      <td class='school'><span class='schoolName'>Школа мобильного дизайна</span></td>
-      <td class='theme'>
-        <a href="https://events.yandex.ru/lib/talks/4158/">
-          Идея, исследование, концепт (Часть 1)
-        </a>
-      </td>
-      <td class='speakers'>
-        <div class='speaker'>
-          <input type="checkbox" id="Ten"><label for="Ten">Антон Тен</label>
-          <div class='speakerInfo'>
-            Самый главный жираф
-          </div>
-        </div>
-      </td>
-      <td class='room'>Синий Кит</td>
-    </tr>
-    <tr>
-      <td>
-        <div>18.03</div>
-        <div>21:00</div>
-      </td>
-      <td><span class='schoolName'>Школа мобильного дизайна</span></td>
-      <td>Идея, исследование, концепт (Часть 2)</td>
-      <td>
-        <div class='speaker'>
-          <input type="checkbox" id="Ten2"><label for="Ten2">Антон Тен</label>
-          <div class='speakerInfo'>
-            Самый главный жираф
-            Наиглавнейший жираф, очень-очень главный жираф
-          </div>
-        </div>
-      </td>
-      <td>Изумрудный жираф</td>
-    </tr>
-    <tr>
-      <td>
-        <div>20.03</div>
-        <div>19:00</div>
-      </td>
-      <td><span class='schoolName'>Школа разработки интерфейсов</span></td>
-      <td>Работа с сенсорным пользовательским вводом</td>
-      <td>
-        <div class='speaker'>
-          <input type="checkbox" id="Dushkin"><label for="Dushkin">Дмитрий Душкин</label>
-          <div class='speakerInfo'>
-            Самый главный ежик
-            Наиглавнейший еж, очень-очень главный еж
-          </div>
-        </div>
-      </td>
-      <td>Желтая Сова</td>
-    </tr>
-    <tr>
-      <td>
-        <div>25.03</div>
-        <div>19:00</div>
-      </td>
-      <td><span class='schoolName'>Школа мобильного дизайна</span></td>
-      <td>Особенности проектирования мобильных интерфейсов</td>
-      <td><div>Васюнин Николай</div></td>
-      <td>Желтая Сова</td>
-    </tr>
-    <tr>
-      <td>
-        <div>27.03</div>
-        <div>19:00</div>
-      </td>
-      <td><span class='schoolName'>Школа разработки интерфейсов</span></td>
-      <td>Адаптивная верстка</td>
-      <td><div>Дмитрий Душкин</div></td>
-      <td>Синий Кит</td>
-    </tr>
-    <tr>
-      <td>
-        <div>01.04</div>
-        <div>19:00</div>
-      </td>
-      <td><span class='schoolName'>Школа мобильного дизайна</span></td>
-      <td>Продукт и платформа</td>
-      <td><div>Сергей Калабин</div></td>
-      <td>Изумрудный жираф</td>
-    </tr>
-    <tr>
-      <td>
-        <div>01.04</div>
-        <div>21:00</div>
-      </td>
-      <td><span class='schoolName'>Школа мобильного дизайна</span></td>
-      <td>Природа операционных систем</td>
-      <td><div>Высюнин Николай</div></td>
-      <td>Изумрудный жираф</td>
-    </tr>
-    <tr>
-      <td>
-        <div>03.04</div>
-        <div>19:00</div>
-      </td>
-      <td><span class='schoolName'>Школа разработки интерфейсов</span></td>
-      <td>Мультимедиа: возможности браузера</td>
-      <td><div>Максим Васильев</div></td>
-      <td>Синий Кит</td>
-    </tr>
-    <tr>
-      <td>
-        <div>08.04</div>
-        <div>19:00</div>
-      </td>
-      <td><span class='schoolName'>Школа мобильного дизайна</span></td>
-      <td>Прототипирование как процесс</td>
-      <td>
-        <div>Дарья Старицына</div>
-        <div>Сергей Томилов</div></td>
-      <td>Желтая Сова</td>
-    </tr>
-    <tr>
-      <td>
-        <div>08.04</div>
-        <div>21:00</div>
-      </td>
-      <td><span class='schoolName'>Школа мобильного дизайна</span></td>
-      <td>Инструмент под задачи</td>
-      <td>
-        <div>Дарья Старицына</div>
-        <div>Сергей Томилов</div></td>
-      <td>Желтая Сова</td>
-    </tr>
-    <tr>
-      <td>
-        <div>10.04</div>
-        <div>19:00</div>
-      </td>
-      <td><span class='schoolName'>Школа разработки интерфейсов</span></td>
-      <td>Нативные приложения на веб-технологиях</td>
-      <td><div>Сергей Бережной</div></td>
-      <td>Изумрудный жираф</td>
-    </tr>
-    <tr>
-      <td>
-        <div>15.04</div>
-        <div>21:00</div>
-      </td>
-      <td><span class='schoolName'>Школа мобильного дизайна</span></td>
-      <td>Анимации</td>
-      <td>
-        <div>Дарья Старицына</div>
-        <div>Сергей Томилов</div></td>
-      <td>Синий Кит</td>
-    </tr>
-    <tr>
-      <td>
-        <div>15.04</div>
-        <div>21:00</div>
-      </td>
-      <td><span class='schoolName'>Школа мобильного дизайна</span></td>
-      <td>Дополнительная лекция. Design Everything</td>
-      <td>
-        <div>Rijshouwer Krijn</div>
-        <div>Treub Jonas</div></td>
-      <td>Синий Кит</td>
-    </tr>
-    <tr>
-      <td>
-        <div>16.04</div>
-        <div>19:00</div>
-      </td>
-      <td>
-        <span class='schoolName'>Школа разработки интерфейсов</span>
-        <span class='schoolName'>Школа мобильного дизайна</span>
-      </td>
-      <td>Жить дружно</td>
-      <td><div>Федор Достоевский</div></td>
-      <td>Желтая Сова</td>
-    </tr>
-    <tr>
-      <td>
-        <div>17.04</div>
-        <div>19:00</div>
-      </td>
-      <td><span class='schoolName'>Школа разработки интерфейсов</span></td>
-      <td>Клиентская оптимизация: базовые знания и лучшие практики</td>
-      <td><div>Андрей Морозов</div></td>
-      <td>Желтая Сова</td>
-    </tr>
-    <tr>
-      <td>
-        <div>22.04</div>
-        <div>21:00</div>
-      </td>
-      <td><span class='schoolName'>Школа мобильного дизайна</span></td>
-      <td>Развите продукта</td>
-      <td>
-        <div>Андрей Гевак</div>
-      </td>
-      <td>Желтая Сова</td>
-    </tr>
-    <tr>
-      <td>
-        <div>24.04</div>
-        <div>19:00</div>
-      </td>
-      <td><span class='schoolName'>Школа разработки интерфейсов</span></td>
-      <td>Клиентская оптимизация: мобильные устройства и инструменты</td>
-      <td><div>Иван Карев</div></td>
-      <td>Изумрудный жираф</td>
-    </tr>
-    <tr>
-      <td>
-        <div>29.04</div>
-        <div>19:00</div>
-      </td>
-      <td><span class='schoolName'>Школа мобильного дизайна</span></td>
-      <td>Исследование интерфейсов</td>
-      <td>
-        <div>Кондратьев Александр</div>
-      </td>
-      <td>Изумрудный жираф</td>
-    </tr>
-    <tr>
-      <td>
-        <div>01.05</div>
-        <div>19:00</div>
-      </td>
-      <td><span class='schoolName'>Школа разработки интерфейсов</span></td>
-      <td>Инфраструктура веб-проектов</td>
-      <td><div>Прокопюк Андрей</div></td>
-      <td>Синий Кит</td>
-    </tr>
-    <tr>
-      <td>
-        <div>01.05</div>
-        <div>21:00</div>
-      </td>
-      <td><span class='schoolName'>Школа разработки интерфейсов</span></td>
-      <td>Инструменты разработки мобильного фронтенда</td>
-      <td><div>Прокопюк Андрей</div></td>
-      <td>Синий Кит</td>
-    </tr>
-    <tr>
-      <td>
-        <div>06.05</div>
-        <div>19:00</div>
-      </td>
-      <td><span class='schoolName'>Школа мобильного дизайна</span></td>
-      <td>Работа в команде</td>
-      <td>
-        <div>Юрий Подорожный</div>
-      </td>
-      <td>Изумрудный жираф</td>
-    </tr>
-    <tr>
-      <td>
-        <div>12.05</div>
-        <div>19:00</div>
-      </td>
-      <td>
-        <span class='schoolName'>Школа разработки интерфейсов</span>
-        <span class='schoolName'>Школа мобильного дизайна</span>
-      </td>
-      <td>Альтернативные методы разработки</td>
-      <td><div>Николай Гоголь</div></td>
-      <td>Желтая Сова</td>
-    </tr>
-    <tr>
-      <td>
-        <div>13.05</div>
-        <div>19:00</div>
-      </td>
-      <td><span class='schoolName'>Школа мобильного дизайна</span></td>
-      <td>Дополнительная лекция. Айдентика</td>
-      <td>
-        <div>Дмитрий Моруз</div>
-        <div>Ждан Филиппов</div>
-      </td>
-      <td>Яндекс</td>
-    </tr>
+  <div class='container'>
+    <div class='headTitle'>
+      Расписание
+    </div>
+    <div class='filter-container'>
+      <div class='filter-welcome'>Начните вводить название школы, аудитории, лекции или имя лектора</div>
+      <input class='filter-input' placeholder='Например, Синий Кит'/>
+    </div>
+    <div class='table-block'>
 
-  </table>
-</div>
+      <div class='table-row past'>
+        <div class='school-mark'>
+          <div class='mark-dev'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа разработки интерфейсов</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>20 марта</span>
+            <span class='lection-time'>19:00</span>
+            <span class='lection-place searchable'>Аудитория: Розовый жираф</span>
+          </div>
+          <span class='lection-name searchable'>
+            <a href="https://events.yandex.ru/lib/talks/4162/">Адаптивная вёрстка</a>
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="DD"><label for="DD" class='searchable'>Дмитрий Душкин</label>
+            <div class='speakerInfo'>
+              Кандидат технических наук, научный сотрудник ИПУ РАН с 2008 по 2013. Пришёл в Яндекс.Картинки в 2014 году, отвечал за мобильную версию и рост производительности сервиса. В 2016 перешёл в Yandex Data Factory, где разрабатывает интерфейсы и дизайн веб-приложений для B2B.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row past'>
+        <div class='school-mark'>
+          <div class='mark-dev'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа разработки интерфейсов</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>21 марта</span>
+            <span class='lection-time'>19:00</span>
+            <span class='lection-place searchable'>Аудитория: Розовый жираф</span>
+          </div>
+          <span class='lection-name searchable'>
+            <a href="https://events.yandex.ru/lib/talks/4172/">Работа с сенсорным пользовательским вводом</a>
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="DD2"><label for="DD2" class='searchable'>Дмитрий Душкин</label>
+            <div class='speakerInfo'>
+              Кандидат технических наук, научный сотрудник ИПУ РАН с 2008 по 2013. Пришёл в Яндекс.Картинки в 2014 году, отвечал за мобильную версию и рост производительности сервиса. В 2016 перешёл в Yandex Data Factory, где разрабатывает интерфейсы и дизайн веб-приложений для B2B.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row past'>
+        <div class='school-mark'>
+          <div class='mark-dev'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа разработки интерфейсов</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>23 марта</span>
+            <span class='lection-time'>19:00</span>
+            <span class='lection-place searchable'>Аудитория: Розовый жираф</span>
+          </div>
+          <span class='lection-name searchable'>
+            <a href="https://events.yandex.ru/lib/talks/4197/">Мультимедиа: возможности браузера</a>
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="MV"><label for="MV" class='searchable'>Максим Васильев</label>
+            <div class='speakerInfo'>
+              Во фронтенд-разработке с 2007 года. До 2013-го, когда пришёл в Яндекс, работал технологом в студии Лебедева и других компаниях.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+          <div class='mark-dis'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа мобильного дизайна</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>18 мая</span>
+            <span class='lection-time'>17:00</span>
+            <span class='lection-place searchable'>Аудитория: Белый лев</span>
+          </div>
+          <span class='lection-name searchable'>
+            Идея, исследование, концепт (Часть 1)
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="Ten"><label for="Ten" class='searchable'>Антон Тен</label>
+            <div class='speakerInfo'>
+              В Яндексе с 2014 года. Ведущий дизайнер продукта в сервисах Переводчик, Расписания и Видео.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+          <div class='mark-dis'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа мобильного дизайна</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>18 мая</span>
+            <span class='lection-time'>19:00</span>
+            <span class='lection-place searchable'>Аудитория: Белый лев</span>
+          </div>
+          <span class='lection-name searchable'>
+            Идея, исследование, концепт (Часть 2)
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="Ten2"><label for="Ten2" class='searchable'>Антон Тен</label>
+            <div class='speakerInfo'>
+              В Яндексе с 2014 года. Ведущий дизайнер продукта в сервисах Переводчик, Расписания и Видео.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+            <div class='mark-mdev'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа мобильной разработки</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>19 мая</span>
+            <span class='lection-time'>17:00</span>
+            <span class='lection-place searchable'>Аудитория: Синий Кит</span>
+          </div>
+          <span class='lection-name searchable'>
+            Java Blitz (Часть 1)
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="EM"><label for="EM" class='searchable'>Эдуард Мацуков</label>
+            <div class='speakerInfo'>
+              Разрабатываю приложения для Android с 2010 года. В 2014 делал высоконагруженное финансовое приложение. Тогда же начал осваивать АОП, внедряя язык в продакшн. В 2015 разрабатывал инструменты для Android Studio, позволяющие использовать aspectJ в своих проектах. В Яндексе занят на проекте Авто.ру.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+            <div class='mark-mdev'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа мобильной разработки</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>19 мая</span>
+            <span class='lection-time'>19:00</span>
+            <span class='lection-place searchable'>Аудитория: Синий Кит</span>
+          </div>
+          <span class='lection-name searchable'>
+            Git & Workflow
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="DS"><label for="DS" class='searchable'>Дмитрий Складнов</label>
+            <div class='speakerInfo'>
+              Окончил факультет ИТ Московского Технического Университета. В Яндексе с 2015 года, разрабатывает приложение Auto.ru для Android.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+            <div class='mark-mdev'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа мобильной разработки</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>23 мая</span>
+            <span class='lection-time'>17:00</span>
+            <span class='lection-place searchable'>Аудитория: Синий Кит</span>
+          </div>
+          <span class='lection-name searchable'>
+            Content provider
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="MaH"><label for="MaH" class='searchable'>Максим Хромцов</label>
+            <div class='speakerInfo'>
+              Учится в магистратуре на факультете информатики и вычислительной техники Московского института радиотехники, электроники и автоматики. С 2005 года занимается разработкой приложений (игры, бизнес-приложения) для мобильных устройств на платформах J2ME, Windows Mobile, Android, Symbian, участвовал в разработке веб-приложений на Java EE. В Яндексе с 2010 года, занимается разработкой для мобильных устройств на платформах J2ME и Android.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+            <div class='mark-mdev'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа мобильной разработки</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>23 мая</span>
+            <span class='lection-time'>19:00</span>
+            <span class='lection-place searchable'>Аудитория: Синий Кит</span>
+          </div>
+          <span class='lection-name searchable'>
+            SQL&SQLite
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="MaH2"><label for="MaH2" class='searchable'>Максим Хромцов</label>
+            <div class='speakerInfo'>
+              Учится в магистратуре на факультете информатики и вычислительной техники Московского института радиотехники, электроники и автоматики. С 2005 года занимается разработкой приложений (игры, бизнес-приложения) для мобильных устройств на платформах J2ME, Windows Mobile, Android, Symbian, участвовал в разработке веб-приложений на Java EE. В Яндексе с 2010 года, занимается разработкой для мобильных устройств на платформах J2ME и Android.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+            <div class='mark-mdev'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа мобильной разработки</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>25 мая</span>
+            <span class='lection-time'>17:00</span>
+            <span class='lection-place searchable'>Аудитория: Синий Кит</span>
+          </div>
+          <span class='lection-name searchable'>
+            Java Blitz (Часть 2)
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="EM2"><label for="EM2" class='searchable'>Эдуард Мацуков</label>
+            <div class='speakerInfo'>
+              Разрабатываю приложения для Android с 2010 года. В 2014 делал высоконагруженное финансовое приложение. Тогда же начал осваивать АОП, внедряя язык в продакшн. В 2015 разрабатывал инструменты для Android Studio, позволяющие использовать aspectJ в своих проектах. В Яндексе занят на проекте Авто.ру.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+            <div class='mark-mdev'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа мобильной разработки</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>25 мая</span>
+            <span class='lection-time'>19:00</span>
+            <span class='lection-place searchable'>Аудитория: Синий Кит</span>
+          </div>
+          <span class='lection-name searchable'>
+            MyFirstApp (Часть 1)
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="RG"><label for="RG" class='searchable'>Роман Григорьев</label>
+            <div class='speakerInfo'>
+              Окончил Самарский университет. Разрабатывает приложения для Android с 2010 года. В Яндексе — с 2012-го. Руководит разработкой мобильных клиентов Яндекс.Диска.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+          <div class='mark-dis'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа мобильного дизайна</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>25 мая</span>
+            <span class='lection-time'>17:00</span>
+            <span class='lection-place searchable'>Аудитория: Белый лев</span>
+          </div>
+          <span class='lection-name searchable'>
+            Особенности проектирования мобильных интерфейсов
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="NikV"><label for="NikV" class='searchable'>Васюнин Николай</label>
+            <div class='speakerInfo'>
+              Пришёл в Яндекс в 2014 году. Дизайнер продукта в музыкальных сервисах компании, участник команды разработки Яндекс.Радио.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+          <div class='mark-dis'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа мобильного дизайна</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>1 июня</span>
+            <span class='lection-time'>19:00</span>
+            <span class='lection-place searchable'>Аудитория: Белый лев</span>
+          </div>
+          <span class='lection-name searchable'>
+            Продукт и платформа
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="SerK"><label for="SerK" class='searchable'>Сергей Калабин</label>
+            <div class='speakerInfo'>
+              Пришёл в компанию дизайнером мобильных приложений в 2013-м. Три года занимался музыкальными сервисами Яндекса, сейчас руководит дизайном турецкого направления. Считает что дизайнера должна отличать любовь к людям.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+          <div class='mark-dis'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа мобильного дизайна</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>1 июня</span>
+            <span class='lection-time'>19:00</span>
+            <span class='lection-place searchable'>Аудитория: Белый лев</span>
+          </div>
+          <span class='lection-name searchable'>
+            Природа операционных систем
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="NikV2"><label for="NikV2" class='searchable'>Васюнин Николай</label>
+            <div class='speakerInfo'>
+              Пришёл в Яндекс в 2014 году. Дизайнер продукта в музыкальных сервисах компании, участник команды разработки Яндекс.Радио.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+            <div class='mark-mdev'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа мобильной разработки</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>2 июня</span>
+            <span class='lection-time'>17:00</span>
+            <span class='lection-place searchable'>Аудитория: Синий Кит</span>
+          </div>
+          <span class='lection-name searchable'>
+            MyFirstApp (Часть 2)
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="RG2"><label for="RG2" class='searchable'>Роман Григорьев</label>
+            <div class='speakerInfo'>
+              Окончил Самарский университет. Разрабатывает приложения для Android с 2010 года. В Яндексе — с 2012-го. Руководит разработкой мобильных клиентов Яндекс.Диска.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+            <div class='mark-mdev'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа мобильной разработки</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>2 июня</span>
+            <span class='lection-time'>19:00</span>
+            <span class='lection-place searchable'>Аудитория: Синий Кит</span>
+          </div>
+          <span class='lection-name searchable'>
+            ViewGroup
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="ASch"><label for="ASch" class='searchable'>Алексей Щербинин</label>
+            <div class='speakerInfo'>
+              Профессионал с глубокими познаниями в графической части Android и всего, что с ней связано. Любит нестандартные задачи и решает их в команде мобильного Яндекс Браузера.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+          <div class='mark-dis'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа мобильного дизайна</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>8 июня</span>
+            <span class='lection-time'>17:00</span>
+            <span class='lection-place searchable'>Аудитория: Белый лев</span>
+          </div>
+          <span class='lection-name searchable'>
+            Прототипирование как процесс
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="SerT"><label for="SerT" class='searchable'>Сергей Томилов</label>
+            <div class='speakerInfo'>
+              Серёжа: Профессионально занимается дизайном с 2009 года. В 2010 году переключился на работу исключительно над интерфейсами, по большей части мобильными. В Яндекс пришёл в 2011 году. Участвовал в создании разных продуктов Поиска, Диска, Фоток и Музыки для всех популярных платформ.
+            </div>
+          </div>
+          <div class='speaker'>
+            <input type="checkbox" id="DarS"><label for="DarS" class='searchable'>Дарья Старицына</label>
+            <div class='speakerInfo'>
+              Дизайнер мобильных продуктов. До прихода в компанию занималась интерфейсами мобильных игр. В Яндексе делает Браузер под все платформы. Также успела поработать над экспериментальными голосовыми интерфейсами и мобильной версией главной страницы Яндекса.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+          <div class='mark-dis'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа мобильного дизайна</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>8 июня</span>
+            <span class='lection-time'>19:00</span>
+            <span class='lection-place searchable'>Аудитория: Белый лев</span>
+          </div>
+          <span class='lection-name searchable'>
+            Инструмент под задачи
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="SerT2"><label for="SerT2" class='searchable'>Сергей Томилов</label>
+            <div class='speakerInfo'>
+              Серёжа: Профессионально занимается дизайном с 2009 года. В 2010 году переключился на работу исключительно над интерфейсами, по большей части мобильными. В Яндекс пришёл в 2011 году. Участвовал в создании разных продуктов Поиска, Диска, Фоток и Музыки для всех популярных платформ.
+            </div>
+          </div>
+          <div class='speaker'>
+            <input type="checkbox" id="DarS2"><label for="DarS2" class='searchable'>Дарья Старицына</label>
+            <div class='speakerInfo'>
+              Дизайнер мобильных продуктов. До прихода в компанию занималась интерфейсами мобильных игр. В Яндексе делает Браузер под все платформы. Также успела поработать над экспериментальными голосовыми интерфейсами и мобильной версией главной страницы Яндекса.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+            <div class='mark-mdev'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа мобильной разработки</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>9 июня</span>
+            <span class='lection-time'>17:00</span>
+            <span class='lection-place searchable'>Аудитория: Синий Кит</span>
+          </div>
+          <span class='lection-name searchable'>
+            Background
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="AlM"><label for="AlM" class='searchable'>Алексей Макаров</label>
+            <div class='speakerInfo'>
+              Выпускник Московского Института Электронной Техники. Android- и Python-разработчик. В команде мобильного Яндекс.Браузера с 2015 года.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+            <div class='mark-mdev'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа мобильной разработки</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>9 июня</span>
+            <span class='lection-time'>19:00</span>
+            <span class='lection-place searchable'>Аудитория: Синий Кит</span>
+          </div>
+          <span class='lection-name searchable'>
+            RecyclerView
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="VlT"><label for="VlT" class='searchable'>Владимир Тагаков</label>
+            <div class='speakerInfo'>
+              Энтузиаст разработки под Android, в Яндексе занимается оптимизацией и разработкой мобильного приложения Карт.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+          <div class='mark-dev'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа разработки интерфейсов</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>10 июня</span>
+            <span class='lection-time'>19:00</span>
+            <span class='lection-place searchable'>Аудитория: Розовый жираф</span>
+          </div>
+          <span class='lection-name searchable'>
+            Нативные приложения на веб-технологиях
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="SB"><label for="SB" class='searchable'>Сергей Бережной</label>
+            <div class='speakerInfo'>
+              Веб-разработчик в Яндексе с 2005 года. Успел поработать над Поиском, Почтой, Поиском по блогам, Я.ру, Картинками, Видео. Помимо этого, активно занимается развитием внутренних инструментов для создания сайтов.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+          <div class='mark-dis'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа мобильного дизайна</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>15 июня</span>
+            <span class='lection-time'>17:00</span>
+            <span class='lection-place searchable'>Аудитория: Белый лев</span>
+          </div>
+          <span class='lection-name searchable'>
+            Анимации
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="SerT3"><label for="SerT3" class='searchable'>Сергей Томилов</label>
+            <div class='speakerInfo'>
+              Серёжа: Профессионально занимается дизайном с 2009 года. В 2010 году переключился на работу исключительно над интерфейсами, по большей части мобильными. В Яндекс пришёл в 2011 году. Участвовал в создании разных продуктов Поиска, Диска, Фоток и Музыки для всех популярных платформ.
+            </div>
+          </div>
+          <div class='speaker'>
+            <input type="checkbox" id="DarS3"><label for="DarS3" class='searchable'>Дарья Старицына</label>
+            <div class='speakerInfo'>
+              Дизайнер мобильных продуктов. До прихода в компанию занималась интерфейсами мобильных игр. В Яндексе делает Браузер под все платформы. Также успела поработать над экспериментальными голосовыми интерфейсами и мобильной версией главной страницы Яндекса.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+          <div class='mark-dis'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа мобильного дизайна</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>15 июня</span>
+            <span class='lection-time'>19:00</span>
+            <span class='lection-place searchable'>Аудитория: Белый лев</span>
+          </div>
+          <span class='lection-name searchable'>
+            Дополнительная лекция. Design Everything
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="Rij"><label for="Rij" class='searchable'>Rijshouwer Krijn</label>
+            <div class='speakerInfo'>
+              Krijn Rijshouwer is a product designer. “I like to create and work on products that have a positive impact in the world. The thing that attracts me most in doing what I do at Framer, and did before at other companies, is changing the way a lot of people work, live and consume on a daily basis with just the push of a button.
+            </div>
+          </div>
+          <div class='speaker'>
+            <input type="checkbox" id="TrJ"><label for="TrJ" class='searchable'>Treub Jonas</label>
+            <div class='speakerInfo'>
+              Jonas Treub is a software developer. “I am a creative software developer with experience working on a variety of projects, from small prototypes to large apps for some well-known Dutch clients.”
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+            <div class='mark-mdev'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа мобильной разработки</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>16 июня</span>
+            <span class='lection-time'>17:00</span>
+            <span class='lection-place searchable'>Аудитория: Синий Кит</span>
+          </div>
+          <span class='lection-name searchable'>
+            Service & Broadcasts
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="AlM2"><label for="AlM2" class='searchable'>Алексей Макаров</label>
+            <div class='speakerInfo'>
+              Выпускник Московского Института Электронной Техники. Android- и Python-разработчик. В команде мобильного Яндекс.Браузера с 2015 года.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+            <div class='mark-mdev'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа мобильной разработки</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>16 июня</span>
+            <span class='lection-time'>19:00</span>
+            <span class='lection-place searchable'>Аудитория: Синий Кит</span>
+          </div>
+          <span class='lection-name searchable'>
+            Drawing
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="ASch2"><label for="ASch2" class='searchable'>Алексей Щербинин</label>
+            <div class='speakerInfo'>
+              Профессионал с глубокими познаниями в графической части Android и всего, что с ней связано. Любит нестандартные задачи и решает их в команде мобильного Яндекс Браузера.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+          <div class='mark-dev'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа разработки интерфейсов</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>17 июня</span>
+            <span class='lection-time'>19:00</span>
+            <span class='lection-place searchable'>Аудитория: Розовый жираф</span>
+          </div>
+          <span class='lection-name searchable'>
+            Клиентская оптимизация: базовые знания и лучшие практики
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="AM"><label for="AM" class='searchable'>Андрей Морозов</label>
+            <div class='speakerInfo'>
+              Окончил радиофизический факультет Киевского Национального Университета. Автор трёх патентных заявок. В Яндексе с 2014 года, разрабатывает интерфейсы Яндекс.Карт.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+          <div class='mark-dis'></div>
+          <div class='mark-dev'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа мобильного дизайна</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>22 июня</span>
+            <span class='lection-time'>19:00</span>
+            <span class='lection-place searchable'>Аудитория: Белый лев</span>
+          </div>
+          <span class='lection-name searchable'>
+            Развите продукта
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="AGev"><label for="AGev" class='searchable'>Андрей Гевак</label>
+            <div class='speakerInfo'>
+              В конце 2013 года команда сервиса Яндекс.Музыка начала разработку новой версии. Новой получилась не только «шкурка», то есть дизайн, но и сами возможности. Мы переосмыслили поведение пользователей на сайте и в приложении и иначе оценили потребность людей в новой музыке. В результате этого получилась нынешняя версия music.yandex.ru и её мобильные клиенты. В докладе я расскажу о том, как шёл процесс переосмысления, почему мы сделали именно так, как сделали, и что из этого всего вышло.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+          <div class='mark-dev'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа разработки интерфейсов</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>24 июня</span>
+            <span class='lection-time'>19:00</span>
+            <span class='lection-place searchable'>Аудитория: Розовый жираф</span>
+          </div>
+          <span class='lection-name searchable'>
+            Клиентская оптимизация: мобильные устройства и инструменты
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="IK"><label for="IK" class='searchable'>Иван Карев</label>
+            <div class='speakerInfo'>
+              Окончил факультет ВМК (вычислительной математики и кибернетики) МГУ им. М.В. Ломоносова, занимается веб-программированием с 2007 года. Сначала делал админки для системы фильтрации трафика, затем — интерфейсы онлайн-карт для проекта Космоснимки. В Яндексе начинал с Народа и Я.ру, последние два года занимался главной страницей. В настоящее время специализируется на вопросах производительности: от серверного JS до оптимизации загрузки страницы на клиенте.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+          <div class='mark-dis'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа мобильного дизайна</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>29 июня</span>
+            <span class='lection-time'>17:00</span>
+            <span class='lection-place searchable'>Аудитория: Белый лев</span>
+          </div>
+          <span class='lection-name searchable'>
+            Исследование интерфейсов
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="AKond"><label for="AKond" class='searchable'>Кондратьев Александр</label>
+            <div class='speakerInfo'>
+              Занимается исследованиями интерфейсов в Яндексе больше 5 лет. За это время поработал с десятками продуктов Поиска, Карт, Маркета, Почты и других сервисов компании. Заинтересовался интерфейсами в 2005 году, по образованию специалист по защите информации.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+            <div class='mark-mdev'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа мобильной разработки</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>30 июня</span>
+            <span class='lection-time'>17:00</span>
+            <span class='lection-place searchable'>Аудитория: Синий Кит</span>
+          </div>
+          <span class='lection-name searchable'>
+            Fragments (Часть 1)
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="DenZ"><label for="DenZ" class='searchable'>Денис Загаевский</label>
+            <div class='speakerInfo'>
+              Окончил факультет ВМК МГУ им. Ломоносова. Занимается разработкой приложений и игр с 2011 года, в 2012-м сконцентрировался на мобильных платформах Android и iOS. В Яндексе разрабатывает приложения для Android.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+            <div class='mark-mdev'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа мобильной разработки</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>30 июня</span>
+            <span class='lection-time'>19:00</span>
+            <span class='lection-place searchable'>Аудитория: Синий Кит</span>
+          </div>
+          <span class='lection-name searchable'>
+            Fragments (Часть 2)
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="DenZ2"><label for="DenZ2" class='searchable'>Денис Загаевский</label>
+            <div class='speakerInfo'>
+              Окончил факультет ВМК МГУ им. Ломоносова. Занимается разработкой приложений и игр с 2011 года, в 2012-м сконцентрировался на мобильных платформах Android и iOS. В Яндексе разрабатывает приложения для Android.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+          <div class='mark-dev'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа разработки интерфейсов</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>1 июля</span>
+            <span class='lection-time'>16:00</span>
+            <span class='lection-place searchable'>Аудитория: Розовый жираф</span>
+          </div>
+          <span class='lection-name searchable'>
+            Инфраструктура веб-проектов
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="AP"><label for="AP" class='searchable'>Андрей Прокопюк</label>
+            <div class='speakerInfo'>
+              В 2008 году впечатлился веб-разработкой из-за скорости воплощения идей и лёгкость их донесения до пользователей. В Яндексе с 2014 года, разрабатывает страницу поисковой выдачи. Любит сложные задачи, интересуется аналитикой, тестированием и новыми способами автоматизировать рутину.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+          <div class='mark-dis'></div>
+          <div class='mark-dev'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа мобильного дизайна</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>6 июля</span>
+            <span class='lection-time'>19:00</span>
+            <span class='lection-place searchable'>Аудитория: Белый лев</span>
+          </div>
+          <span class='lection-name searchable'>
+            Работа в команде
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="UrP"><label for="UrP" class='searchable'>Юрий Подорожный</label>
+            <div class='speakerInfo'>
+              Руководитель службы разработки мобильных геоинформационных сервисов «Яндекса». Работает над «Яндекс.Картами» и «Яндекс.Метро». Занимается мобильной разработкой более восьми лет.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+            <div class='mark-mdev'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа мобильной разработки</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>7 июля</span>
+            <span class='lection-time'>19:00</span>
+            <span class='lection-place searchable'>Аудитория: Синий Кит</span>
+          </div>
+          <span class='lection-name searchable'>
+            MVP&Co
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="DmP"><label for="DmP" class='searchable'>Дмитрий Попов</label>
+            <div class='speakerInfo'>
+              Окончил факультет ПМТ Вятского государственного университета в 2012 году. В Яндексе с 2015-го, занимается разработкой продуктов медийных сервисов.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+          <div class='mark-dis'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа мобильного дизайна</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>13 июля</span>
+            <span class='lection-time'>19:00</span>
+            <span class='lection-place searchable'>Аудитория: Белый лев</span>
+          </div>
+          <span class='lection-name searchable'>
+            	Дополнительная лекция. Айдентика
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="DmM"><label for="DmM" class='searchable'>Дмитрий Моруз</label>
+            <div class='speakerInfo'>
+            Работал дизайнером в студии «Трансформер», с 2014 года — дизайнер систем идентификации в Яндексе.
+            </div>
+          </div>
+          <div class='speaker'>
+            <input type="checkbox" id="ZhF"><label for="ZhF" class='searchable'>Ждан Филлипов</label>
+            <div class='speakerInfo'>
+              Арт-директор коммуникаций Яндекса. В прошлом — арт-директор журналов «CitizenK», «Эрмитаж», «Секрет Фирмы», «Top-Flight», сотрудник «Мастерской Димы Барбанеля». Занимался макетной работой для компаний Readymag, Aliexpress, ONY, Charmer, MINI, Grohe и Мосметрострой.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='table-row'>
+        <div class='school-mark'>
+            <div class='mark-mdev'></div>
+        </div>
+        <div class='lection-block'>
+          <div class='school-name-block'>
+            <span class='school-name searchable'>Школа мобильной разработки</span>
+          </div>
+          <div class='lection-info'>
+            <span class='lection-date searchable'>14 июля</span>
+            <span class='lection-time'>19:00</span>
+            <span class='lection-place searchable'>Аудитория: Синий Кит</span>
+          </div>
+          <span class='lection-name searchable'>
+            Debugging & Polishing
+          </span>
+          <div class='speaker'>
+            <input type="checkbox" id="IlS"><label for="IlS" class='searchable'>Илья Сергеев</label>
+            <div class='speakerInfo'>
+              Разрабатывает приложения под мобильные платформы с 2009 года. За это время принял участие более чем в 30 законченных проектах под Android, iOS, и Windows Phone. В Яндексе с 2015 года, занимается разработкой КиноПоиска под Android и iOS.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src='index.js'></script>
 </body>
 </html>

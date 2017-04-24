@@ -27,4 +27,4 @@ function applyFilters() {
     var ok = checkItem(allEvents[i])
     allEvents[i].classList.toggle('hidden', !ok)
   }
-}
+};
